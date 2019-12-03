@@ -84,6 +84,10 @@ class LinkExercise<E> {
         System.out.println("");
     }
 
+    /**
+     * 链表回转
+     * 
+    */
     public Node<E> reverse(Node<E> node){
         Node<E> prev = null;
         Node<E> next = null;
